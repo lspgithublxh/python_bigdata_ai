@@ -4,8 +4,9 @@ import scrapy
 class no1spider(scrapy.Spider):
     name = 'no1spider'
     start_urls = [
-        'http://www.people.com/',
-        'http://www.tencent.com/'
+        'http://www.dmoz.org/Computers/Programming/Languages/Python/Books/'
+        # 'http://www.people.com/',
+        # 'http://www.tencent.com/'
     ]
 
     def parse(self, response):

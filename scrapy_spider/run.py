@@ -5,6 +5,6 @@ from spiders.no2spider import no2spider
 
 settings = get_project_settings()
 process = CrawlerProcess(settings=settings)
-# process.crawl(no1spider)
-process.crawl(no2spider)
+process.crawl(no1spider)
+# process.crawl(no2spider)
 process.start()
